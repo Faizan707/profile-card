@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .card {
+            width: 300px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px;
+        }
+        
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .job-title {
+            font-size: 16px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        
+        .bio {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="profile-img" src="profile.jpg" alt="Profile Picture">
+        <h2 class="name">Muhammad Faizan</h2>
+        <h3 class="job-title">Web Developer</h3>
+        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed justo auctor, commodo odio a, interdum lorem.</p>
+    </div>
+</body>
+</html>
